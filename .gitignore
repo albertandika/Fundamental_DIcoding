@@ -3,6 +3,7 @@
 /tests/coverage
 .DS_Store
 node_modules
+package-lock.json
 
 # local env files
 .env.local
