@@ -1,6 +1,7 @@
 import "regenerator-runtime";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "./styles/main.css";
-import main from "./scripts/main";
+// import "./scripts/component/app-bar.js";
+import main from "./scripts/view/main.js";
 
-main();
+document.addEventListener("DOMContentLoaded", main);
